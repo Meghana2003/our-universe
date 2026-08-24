@@ -6,28 +6,28 @@ const storyItems = [
     year: "The Beginning",
     title: "Where It All Started",
     description:
-      "Every beautiful story has a beginning. Ours started with a simple moment that slowly became something much more beautiful. The day when I saw you in the lab that moment made me fall in love at first sight.",
+      "Every beautiful story has a beginning. Ours started with a simple moment that slowly became something much more beautiful. Cheppalante mana story ekkadi nunchi start cheyyalo nak kuda ardham avvatledhu kani lab lo ninnu chusina roje niku padipoya Roshan. Ni innocent eyes nannu baga attract chesayi maybe love at first sight anukunta. Nuv naku first msg cheyyatam, mana long converssations, nen niku stories cheppatam antha chala fast ga aipoyayi kani the best moments.",
     icon: "♡",
   },
   {
     year: "Our First Memory",
     title: "A Moment to Remember",
     description:
-      "From the first conversations to the little moments we shared, every memory became a special part of our story.",
+      "First memory ante em cheppali nitho unna anni days naku manchi memories. Kalisi navvukunna memories, edchina memories, koppadina memories nitho unna moments anni naku sweet memories. From the first conversations to the little moments we shared, every memory became a special part of our story.",
     icon: "✦",
   },
   {
     year: "Growing Together",
     title: "Two Hearts, One Journey",
     description:
-      "We laughed together, cried together, supported each other, made countless memories, and discovered how beautiful it is to grow together.",
+      "We laughed together, cried together, supported each other, made countless memories, and discovered how beautiful it is to grow together. Ilane life long kalisi undi inka chaala memories ni cheskovali. Ipudu deggara levu kani ee gap antha future lo kalisi unnappudu cover cheyyali. Ninnu chala miss avthunna Roshan.",
     icon: "♥",
   },
   {
     year: "Today",
     title: "Still Choosing You",
     description:
-      "Through every smile, every adventure, and every little moment, one thing remains the same — I would still choose you.",
+      "Em jargina, enni jargina malli malli ninne choose cheskunta Roshan. Na beautiful decision vi nuvvu. Life lo the best jargindhi ante adhi nuvve My bujji kuka pilla. Enduku antha cute ga unta...ah magnetic eyes thone padesav.",
     icon: "♡",
   },
   {

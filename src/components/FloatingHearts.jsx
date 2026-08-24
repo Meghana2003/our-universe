@@ -14,6 +14,7 @@ function createHeart(id) {
   return {
     id,
     left: Math.random() * 100,
+    top: 20 + Math.random() * 80,
     size: 10 + Math.random() * 18,
     duration: 5 + Math.random() * 5,
     delay: Math.random() * 1.5,
@@ -21,44 +22,29 @@ function createHeart(id) {
     rotation: -30 + Math.random() * 60,
     symbol:
       heartSymbols[
-        Math.floor(
-          Math.random() * heartSymbols.length
-        )
+        Math.floor(Math.random() * heartSymbols.length)
       ],
   };
 }
 
 export default function FloatingHearts() {
-  const [hearts, setHearts] = useState([]);
+  // Create the first hearts when the state is initialized.
+  // This avoids calling setState directly inside useEffect.
+  const [hearts, setHearts] = useState(() =>
+    Array.from({ length: 20 }, (_, index) =>
+      createHeart(index)
+    )
+  );
 
   useEffect(() => {
-    let id = 0;
+    let id = 20;
 
-    const createNewHeart = () => {
-      const newHeart = createHeart(id++);
-
+    const interval = setInterval(() => {
       setHearts((current) => [
-        ...current.slice(-15),
-        newHeart,
+        ...current.slice(-19),
+        createHeart(id++),
       ]);
-    };
-
-    /*
-     * Start with a few hearts.
-     */
-    for (let i = 0; i < 6; i++) {
-      setTimeout(() => {
-        createNewHeart();
-      }, i * 500);
-    }
-
-    /*
-     * Continue creating hearts.
-     */
-    const interval = setInterval(
-      createNewHeart,
-      900
-    );
+    }, 900);
 
     return () => {
       clearInterval(interval);
@@ -77,27 +63,17 @@ export default function FloatingHearts() {
             className="floating-heart-particle"
             initial={{
               opacity: 0,
-              y: "105vh",
+              y: 0,
               x: 0,
               scale: 0.3,
               rotate: heart.rotation,
             }}
             animate={{
-              opacity: [
-                0,
-                0.8,
-                0.75,
-                0,
-              ],
-              y: "-15vh",
+              opacity: [0, 0.8, 0.75, 0],
+              y: "-30vh",
               x: heart.drift,
-              scale: [
-                0.3,
-                1,
-                0.9,
-              ],
-              rotate:
-                heart.rotation + 25,
+              scale: [0.3, 1, 0.9],
+              rotate: heart.rotation + 25,
             }}
             exit={{
               opacity: 0,
@@ -109,6 +85,7 @@ export default function FloatingHearts() {
             }}
             style={{
               left: `${heart.left}%`,
+              top: `${heart.top}%`,
               fontSize: `${heart.size}px`,
             }}
           >

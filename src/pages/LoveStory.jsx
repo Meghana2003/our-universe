@@ -10,22 +10,22 @@ const moments = [
   {
     number: "01",
     title: "The Beginning",
-    text: "Every beautiful story has a beginning. Ours started with a simple moment that slowly became something much more beautiful. The day when I saw you in the lab that moment made me fall in love at first sight.",
+    text: "Every beautiful story has a beginning. Ours started with a simple moment that slowly became something much more beautiful. Cheppalante mana story ekkadi nunchi start cheyyalo nak kuda ardham avvatledhu kani lab lo ninnu chusina roje niku padipoya Roshan. Ni innocent eyes nannu baga attract chesayi maybe love at first sight anukunta.",
   },
   {
     number: "02",
     title: "Getting Closer",
-    text: "Little conversations became long conversations. Ordinary days started feeling a little more exciting. We laughed together, cried together, supported each other, made countless memories, and discovered how beautiful it is to grow together.",
+    text: "Little conversations became long conversations. Ordinary days started feeling a little more exciting. Nuv naku first msg cheyyatam, mana long conversations, nen niku stories cheppatam antha chala fast ga aipoyayi kani the best moments. We laughed together, cried together, supported each other, made countless memories, and discovered how beautiful it is to grow together. ",
   },
   {
     number: "03",
     title: "Our Memories",
-    text: "Then came the moments we never wanted to forget the laughs, the adventures and all the little things that became ours. From the first conversations to the little moments we shared, every memory became a special part of our story.",
+    text: "Kalisi navvukunna memories, edchina memories, koppadina memories nitho unna moments anni naku sweet memories. Then came the moments we never wanted to forget the laughs, the adventures and all the little things that became ours. From the first conversations to the little moments we shared, every memory became a special part of our story. Ilane life long kalisi undi inka chaala memories ni cheskovali. Ipudu deggara levu kani ee gap antha future lo kalisi unnappudu cover cheyyali. Ninnu chala miss avthunna Roshan.",
   },
   {
     number: "04",
     title: "Still Choosing You",
-    text: "And here we are, continuing to write our story one beautiful chapter at a time.",
+    text: "Em jargina, enni jargina malli malli ninne choose cheskunta Roshan. Na beautiful decision vi nuvvu. Life lo the best jargindhi ante adhi nuvve My bujji kuka pilla. Enduku antha cute ga unta...ah magnetic eyes thone padesav. And here we are, continuing to write our story one beautiful chapter at a time.",
   },
 ];
 

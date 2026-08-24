@@ -25,7 +25,7 @@ const moments = [
   {
     number: "04",
     title: "Still Choosing You",
-    text: "Em jargina, enni jargina malli malli ninne choose cheskunta Roshan. Na beautiful decision vi nuvvu. Life lo the best jargindhi ante adhi nuvve My bujji kuka pilla. Enduku antha cute ga unta...ah magnetic eyes thone padesav. And here we are, continuing to write our story one beautiful chapter at a time.",
+    text: "Em jargina, enni jargina malli malli ninne choose cheskunta Roshan. Na beautiful decision vi nuvvu. Life lo the best jargindhi ante adhi nuvve My bujji kuka pilla. Enduku antha cute ga untav...ah magnetic eyes thone padesav. And here we are, continuing to write our story one beautiful chapter at a time.",
   },
 ];
 
